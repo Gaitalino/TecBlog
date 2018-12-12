@@ -1,0 +1,46 @@
+.container{
+	width: 900px;
+	margin: auto;
+	background-color: white;
+	margin-top: 20px;
+}
+
+#cabecalho{
+	text-align: center;
+}
+#cabecalho span{
+	color: #3D3D3D;
+}
+#cabecalho ul li{
+	display: inline;
+	margin: 15px;
+
+}
+header{
+	background-color: #F9D032;
+	font-weight: bold;
+}
+header h1{
+	padding-top: 20px;
+	color: white;
+}
+header ul{
+	padding-bottom: 20px;
+}
+#cabecalho a{
+	text-decoration: none;
+	color: white;
+	padding: 5px;
+}
+a:hover{
+	background-color: white;
+	color: #F9D032;
+}
+#conteudo{
+	width: 100%;
+	background-color: grey;
+
+}
+.postagem section{
+	margin-top: 220px;
+}
