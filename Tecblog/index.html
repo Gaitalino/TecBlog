@@ -7,7 +7,7 @@
 	</head>
 	<body>
 		<header>
-			<div class="" id="cabecalho">
+			<div class="container" id="cabecalho">
 				<div>
 					<h1><span>Tec</span>Blog</h1>
 				</div>
@@ -24,11 +24,11 @@
 			</div>
 		</header>
 
-		<div id="conteudo" >
-			<div class="container">
+		<div class="container" >
+			<div class="principal">
 
-				<div class="postagem">
-					<section >
+				<div id="postagens">
+					<section id="parte1">
 						<h2>Titulo da postagem 1</h2>
 
 						<p>postado em 20 de março 2022</p>
@@ -42,7 +42,7 @@
 						<a href="">Leia mais</a>
 					</section>
 
-					<section>
+					<section id="parte2">
 						<h2>Titulo da postagem 2</h2>
 
 						<p>postado em 20 de março 2022</p>
@@ -55,14 +55,17 @@
 							
 						<a href="">Leia mais</a>
 					</section>
-				</div>
+				</div>		
+			</div>
+		
 
+			<div id="barra-lateral" class="fundo_branco">
 				<aside>
-					<div>
+					<div id="recentes">
 						<h3>Postagens recentes</h3>
 
 						<p>
-							Quisque bibendum commodo dui, at gravida nunc tempor at. Nunc dignissim elit est, at porttitor eros tristique a. Nunc feugiat molestie dictum.
+							Quisque bibendum commodo dui, at gravida nunc tempor at. 
 						</p>
 
 						<a href="">Leia mais</a>
@@ -70,11 +73,12 @@
 						<hr>
 
 						<p>
-							Quisque bibendum commodo dui, at gravida nunc tempor at. Nunc dignissim elit est, at porttitor eros tristique a. Nunc feugiat molestie dictum.
+							Quisque bibendum commodo dui, at gravida nunc tempor at. 
 						</p>
+						<a href="">Leia mais</a>
 					</div>
 
-					<div>
+					<div id="categorias" class="fundo_branco">
 						<h3>Categorias</h3>
 
 						<ul>
@@ -85,12 +89,13 @@
 							<li><a href="">Jogos</a></li>
 						</ul>
 					</div>
-
 				</aside>
 			</div>
 		</div>
 
-		<footer>
+		<div class="clear"></div>
+
+		<footer class="container">
 			<p>Todos direitos reservados</p>
 		</footer>
 	</body>

@@ -1,46 +1,138 @@
+.clear{
+	clear: both;
+}
+body{
+	margin: 0px;
+	background-color: #F5F4F3;
+	font-family: helvética, Arial;
+	font-size: 16px;
+}
+h1, h2, h3{
+	margin: 0px;
+}
 .container{
-	width: 900px;
+	width: 1000px;
 	margin: auto;
-	background-color: white;
-	margin-top: 20px;
 }
-
 #cabecalho{
+	width: 100%;
 	text-align: center;
-}
-#cabecalho span{
-	color: #3D3D3D;
-}
-#cabecalho ul li{
-	display: inline;
-	margin: 15px;
-
-}
-header{
-	background-color: #F9D032;
-	font-weight: bold;
-}
-header h1{
-	padding-top: 20px;
-	color: white;
-}
-header ul{
-	padding-bottom: 20px;
+	background-color: #FCBC01;
 }
 #cabecalho a{
 	text-decoration: none;
-	color: white;
+	color: #FFF;
 	padding: 5px;
-}
-a:hover{
-	background-color: white;
-	color: #F9D032;
-}
-#conteudo{
-	width: 100%;
-	background-color: grey;
 
 }
-.postagem section{
-	margin-top: 220px;
+#cabecalho a:hover{
+	background-color: #FFF;
+	color: #FCBC01;
+}
+#cabecalho ul{
+	padding-bottom: 20px;
+
+
+}
+#cabecalho li{
+	display: inline;
+	padding: 15px;
+	font-weight: bold;
+
+	
+}
+#cabecalho h1{
+	padding-top: 20px;
+	color: #FFF;
+}
+#cabecalho span{
+	color: #46443E;
+}
+
+.principal{
+	
+	float: left;
+	width: 700px;
+	
+}
+
+.principal h2{
+	color: #FCBC01;
+}
+#barra-lateral{
+	width: 220px;
+	float: left;
+	margin-left: 20px;
+
+}
+#barra-lateral p, #barra-lateral ul{
+	margin: 5px;
+}
+#barra-lateral h3{
+	padding: 5px;
+	background-color: #C0BFBC;
+	color: #696865;
+	font-size: 1em;
+}
+#categorias{
+	margin-top: 20px;
+	background-color: #FFF;
+	padding: 15px;
+	font-size: 0.9em;
+	
+}
+#recentes{
+	background-color: #FFF;
+	padding: 15px;
+	font-size: 0.9em;
+}
+ a{
+	padding: 5px;
+	text-decoration: none;
+	color: #FCBC01;
+}
+ a:hover{
+	background-color: #FCBC01;
+	color: #FFF;
+}
+#barra-lateral ul {
+	padding: 0px;
+	list-style: none;
+	margin: 5px 0;
+}
+#barra-lateral ul li{
+	padding: 2px;
+	
+}
+p{
+	font-size: 0.9em;
+}
+#postagens{
+	width: 680px;
+	margin-bottom: 15px;
+	margin-top: 0px;
+}
+#parte1{
+	background-color: white;
+	padding: 20px;
+}
+#parte2{
+	margin-top: 20px;
+	background-color: #FFF;
+	padding: 20px 20px;
+}
+#postagens p{
+	margin: 0;
+}
+#postagens a{
+	padding: 0px;
+}
+#postagens img{
+	margin-top: 30px;
+}
+footer p{
+	text-align: center;
+	background-color: #C0BFBC;
+	padding: 15px;
+	font-weight: bold;
 }
